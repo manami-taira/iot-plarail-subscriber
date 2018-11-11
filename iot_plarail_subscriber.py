@@ -14,7 +14,7 @@ IN_B = 6 #GPIO:6
 
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
-    client.subscribe("/iot-plarail/sample")
+    client.subscribe("/iot-plarail/eh200")
     return
 
 def on_message(client, userdata, msg):
