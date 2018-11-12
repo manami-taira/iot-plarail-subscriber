@@ -24,7 +24,7 @@ def on_message(client, userdata, msg):
     return
 
 def gpio_init():
-        GPIO.setmode(GPIO.BMC)
+        GPIO.setmode(GPIO.BCM)
         return
 
 
