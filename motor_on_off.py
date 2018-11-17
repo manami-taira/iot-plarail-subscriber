@@ -7,7 +7,7 @@ IN_A = 20 #GPIO:20
 IN_B = 21 #GPIO:21
 
 def gpio_init():
-        GPIO.setmode(GPIO.BMC)
+        GPIO.setmode(GPIO.BCM)
         return
 
 def gpio_cleanup():
