@@ -9,8 +9,8 @@ from time import sleep
 mqtt_broker="example.com"
 #mqtt_broker="iot.eclipse.org"
 state = "stop"
-IN_A = 5 #GPIO:5
-IN_B = 6 #GPIO:6
+IN_A = 20 #GPIO:20
+IN_B = 21 #GPIO:21
 
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
